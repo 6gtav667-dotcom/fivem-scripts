@@ -15,5 +15,5 @@ document.querySelector('#copy-contact').addEventListener('click', async () => {
   const message = 'Pozdrav! Zanima me FiveM skripta / izrada po narudžbi. Moj framework je: ____. Trebam: ____. Molim ponudu.';
   const status = document.querySelector('#copy-status');
   try { await navigator.clipboard.writeText(message); status.textContent = 'Predložak upita je kopiran!'; }
-  catch { status.textContent = 'Kopiranje nije uspjelo. Kontaktiraj nas nakon što dodamo Discord ili e-mail.'; }
+  catch { status.textContent = 'Kopiranje nije uspjelo. Pošalji upit na 6gtav667@gmail.com.'; }
 });
